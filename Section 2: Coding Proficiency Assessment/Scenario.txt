@@ -1,0 +1,22 @@
+Scenario:
+Your team manages mission-critical infrastructure where alerts must be processed quickly and accurately. You need to create a script that can parse, filter, and prioritize alert data from multiple monitoring systems.
+Task:
+Write a script in a language of your choice (Python) preferred that accomplishes the following:
+1.	Alert Data Processing
+a.	Parse the provided sample alert data file (sample_alerts.json)
+b.	Filter alerts based on multiple criteria (severity, service, and time window)
+c.	Group related alerts to reduce noise
+d.	Calculate incident priority based on a weighted algorithm
+2.	Sample Data Structure:
+3.	Required Functionality: 
+a.	Function to parse the JSON file and validate its structure
+b.	Function to filter alerts by: 
+i.	Severity level (critical, warning, info)
+ii.	Time range (within the last X minutes)
+iii.	Affected service
+c.	Function to group related alerts (e.g., multiple alerts from same component)
+d.	Function to calculate priority score based on: 
+i.	Severity (critical=10, warning=5, info=1)
+ii.	Deviation from threshold (percentage)
+iii.	Number of affected components
+
